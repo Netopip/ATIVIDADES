@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Registro</title>
+</head>
+
+<body>
+
+    <h2>Formulário de Registro</h2>
+
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br>
+
+        <h2>Animal de estimação</h2>
+
+
+        <input type="radio" id="cat" name="animal" value="gato">
+        <label for="cat">Gato</label>
+
+        <br><br>
+
+        <input type="radio" id="dog" name="animal" value="cachorro">
+        <label for="dog">Cachorro</label>
+        <br><br>
+
+        <input type="radio" id="bird" name="animal" value="passarinho">
+        <label for="dog">Passarinho</label>
+        <br><br>
+
+        <h2>O que voce tem em casa:</h2>
+
+        <input id="item1" type="checkbox" name="tv" name="item1" value="tv">
+        <label for="item1">TV</label> </label>
+        <br><br>
+        <input id="item2" type="checkbox" name="Geladeira" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label> </label>
+        <br><br>
+        <input id="item3" type="checkbox" name="Notbook" name="item3" value="Notbook">
+        <label for="item3">Notbook</label> </label>
+        <br><br>
+
+        <h2>Escolha uma cor:</h2>
+
+        <select name="cores">
+            <option selected disabled value="">Selecione gay</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Azul">Azul</option>
+            <option value="Vede">Verde</option>
+            <option value="Branco">Branco</option>
+        </select>
+        <br><br>
+
+        <h2>Digite sua mensagem:</h2>
+
+        <textarea name="mensagem" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+        <br><br>
+
+        <input type="submit" value="Registrar">
+        <button>Clique aqui</button>
+
+
+    </form>
+
+</body>
+
+</html>
