@@ -1,0 +1,52 @@
+body {
+    background: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+p {
+    color: rgb(247, 244, 244)
+}
+
+.center {
+    text-align: justify;
+}
+
+.fonte-30 {
+    font-size: 30px;
+}
+
+#teste {
+    color: blue;
+    background: yellow;
+}
+
+* {
+    padding: 20px;
+}
+
+h1,
+p {
+    color: white;
+}
+
+.botao {
+    margin-left: 50%;
+    background-color: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: greenyellow;
+}
+
+.teste {
+    max-width: 800px;
+    height: 150px;
+    background: cyan;
+}
