@@ -20,7 +20,7 @@ def main():
     valor = int(input())
     
     cont = count(lista,valor)
-    print(f'{lista}\n{cont}')
+    print(f'{lista}\n{valor}\n{cont}')
     
 if __name__ == '__main__':
     main()
