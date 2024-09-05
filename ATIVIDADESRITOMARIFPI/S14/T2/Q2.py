@@ -19,13 +19,13 @@ def main():
     lista = []
     for i in range(10):
         numeros = float(input())
-        lista.append(numeros)
+        lista.append(int(numeros))
         
     negativos = numeros_negativos(lista)
     soma = soma_positivos(lista)
-    print(int(lista))
+    print(lista)
     print(negativos)
-    print(int(soma))
+    print(soma)
         
 if __name__ == '__main__':
     main()
