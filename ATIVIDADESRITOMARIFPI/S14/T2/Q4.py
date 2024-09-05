@@ -31,8 +31,9 @@ def main():
     nova_lista = produto_escalar(lista_x, lista_y)
     soma = soma_da_nova_lista(nova_lista)
     print(f'{lista_x}\n{lista_y}')
-    
-    
+    print(f'({lista_x[0]} x {lista_y[0]}) + ({lista_x[1]} x {lista_y[1]}) + '
+          f'({lista_x[2]} x {lista_y[2]}) + ({lista_x[3]} x {lista_y[3]}) + '
+          f'({lista_x[4]} x {lista_y[4]}) = {soma}')    
 if __name__ == '__main__':
     main()
         
