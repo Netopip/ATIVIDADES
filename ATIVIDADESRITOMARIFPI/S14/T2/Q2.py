@@ -23,9 +23,9 @@ def main():
         
     negativos = numeros_negativos(lista)
     soma = soma_positivos(lista)
-    print(lista)
+    print(int(lista))
     print(negativos)
-    print(soma)
+    print(int(soma))
         
 if __name__ == '__main__':
     main()
