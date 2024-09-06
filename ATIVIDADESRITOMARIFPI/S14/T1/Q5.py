@@ -2,7 +2,7 @@
 
 def media_altura(alturas):
     media = sum(alturas)/len(alturas)
-    return media
+    return round(media, 2) #arredonda para duas casas decimais
 
 def alunos_maior_13(idades,nomes,alturas):
     nome_13 = []
