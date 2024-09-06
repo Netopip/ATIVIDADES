@@ -1,3 +1,5 @@
+'''Um time de basquete possui 12 jogadores. Deseja-se um programa que, dado o nome e a altura dos jogadores, determine: a. o nome e a altura do jogador mais alto; b. a média de altura do time; c. os jogadores com altura superior à média, listando o nome e a altura de cada um.'''
+
 def mais_alto(jogadores, alturas):
     nome_alto = jogadores[0]
     altura_alto = alturas[0]
