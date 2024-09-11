@@ -67,7 +67,7 @@ def main():
     
     print(f'CIDADES COM MAIS DE {populacao} HABITANTES E ANIVERSÁRIO EM {mes_ext}:')
     for cidade in lista_cidades:
-        print(f'{cidade[2]}({cidade[0]}) tem {cidade[5]} habitantes e faz aniversáro em {cidade[3]} de {mes_ext.lower()}.')        
+        print(f'{cidade[2]}({cidade[0]}) tem {cidade[5]} habitantes e faz aniversário em {cidade[3]} de {mes_ext.lower()}.')        
               
 
 if __name__ == '__main__':
