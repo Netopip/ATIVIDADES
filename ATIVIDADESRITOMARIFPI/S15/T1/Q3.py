@@ -3,7 +3,7 @@
 
 def carrega_cidades():
     resultado = []
-    with open('c:/Users/ferna/OneDrive/Desktop/GIT/ATIVIDADESRITOMARIFPI/S15/T1/cidades.csv', 'r', encoding='utf-8') as arquivo:
+    with open('cidades.csv', 'r', encoding='utf-8') as arquivo:
         for linha in arquivo:
             uf, ibge, nome, dia, mes, pop = linha.split(';')
             resultado.append(
