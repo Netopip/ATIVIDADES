@@ -1,31 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.topo{
+
+.topo {
     text-align: center;
     color: rgb(6, 190, 6);
 }
+
 .imagem {
     float: center;
     margin-left: 15pt;
     text-align: center;
 }
-body{
-    background-color: rgb(218, 211, 211);
-    font-size: 12px;
+
+body {
+    font-size: 15pt;
+    background-color: rgb(226, 225, 225);
 }
-.menu a{
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-.menu{
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     text-align: center;
-    background-color: green;
+    background-color: rgb(14, 172, 14);
+    border: 1px solid;
     border-radius: 15px;
-    border-style: groove;
-    word-spacing: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #08331b;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    color: #2b3a4b;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #6dd372;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(12, 87, 12);
+}
+
+.submenu a:hover {
+    background-color: rgb(14, 172, 14);
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+button {
+    background-color: rgb(6, 206, 66);
+    float: right;
+    margin: 15px 15px;
+    border: 1px solid rgb(5, 250, 107);
+    width: 60px;
+    height: 20px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 50px rgb(76, 253, 5);
+    background-color: rgb(76, 253, 5);
+}
+
+.corpo {
+    margin: 100px;
+    text-align: justify;
+}
+
+.corpo .imagem2 {
+    float: left;
+    width: 500px;
+    margin-right: 15px;
+}
+
+.primeiro {
+    margin: 100px;
+    text-align: justify;
+}
+
+.primeiro h2 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
 }
