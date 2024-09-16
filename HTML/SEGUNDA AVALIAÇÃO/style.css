@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    text-align: center;
+    color: rgb(6, 190, 6);
+}
+.imagem {
+    float: center;
+    margin-left: 15pt;
+    text-align: center;
+}
+body{
+    background-color: rgb(218, 211, 211);
+    font-size: 12px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.menu{
+    text-align: center;
+    background-color: green;
+    border-radius: 15px;
+    border-style: groove;
+    word-spacing: 10px;
+}
