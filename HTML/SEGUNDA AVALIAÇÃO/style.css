@@ -16,7 +16,7 @@
 
 body {
     font-size: 15pt;
-    background-color: rgb(226, 225, 225);
+    background-color: rgb(255, 255, 255);
 }
 
 .menu {
@@ -26,13 +26,13 @@ body {
     text-align: center;
     background-color: rgb(14, 172, 14);
     border: 1px solid;
-    border-radius: 15px;
+    word-spacing: 50px;
 }
 
 .menu a {
     text-decoration: none;
     color: #08331b;
-    padding: 10px 15px;
+    padding: 20px 15px;
     display: inline-block;
 }
 
@@ -75,6 +75,14 @@ body {
     display: block;
 }
 
+.menu button {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
 button {
     background-color: rgb(6, 206, 66);
     float: right;
@@ -111,4 +119,24 @@ button:hover {
 
 h2 {
     text-decoration: underline;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.corpo2 {
+    margin: 100px
+}
+
+.corpo2 h2 {
+    text-align: center;
+}
+
+.curso_tecnicos {
+    float: left;
+}
+
+.curso_superior {
+    float: right;
 }
