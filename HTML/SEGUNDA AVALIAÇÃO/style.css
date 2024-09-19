@@ -17,6 +17,7 @@
 body {
     font-size: 15pt;
     background-color: rgb(255, 255, 255);
+    margin: 10%;
 }
 
 .menu {
@@ -139,4 +140,8 @@ p {
 
 .curso_superior {
     float: right;
+}
+
+.contatos {
+    background-color: rgb(199, 190, 190);
 }
