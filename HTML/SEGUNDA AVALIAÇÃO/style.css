@@ -5,10 +5,10 @@
 
 .topo {
     text-align: center;
-    color: rgb(6, 190, 6);
+    color: #19882c;
 }
 
-.imagem {
+.imagem1 {
     float: center;
     margin-left: 15pt;
     text-align: center;
@@ -16,7 +16,7 @@
 
 body {
     font-size: 15pt;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(236, 228, 228);
     margin: 10%;
 }
 
@@ -28,6 +28,7 @@ body {
     background-color: rgb(14, 172, 14);
     border: 1px solid;
     word-spacing: 50px;
+    border-radius: 10px;
 }
 
 .menu a {
@@ -84,20 +85,6 @@ body {
     margin-top: 16px;
 }
 
-button {
-    background-color: rgb(6, 206, 66);
-    float: right;
-    margin: 15px 15px;
-    border: 1px solid rgb(5, 250, 107);
-    width: 60px;
-    height: 20px;
-}
-
-button:hover {
-    box-shadow: 0px 0px 50px rgb(76, 253, 5);
-    background-color: rgb(76, 253, 5);
-}
-
 .corpo {
     margin: 100px;
     text-align: justify;
@@ -144,4 +131,71 @@ p {
 
 .contatos {
     background-color: rgb(199, 190, 190);
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid;
+    word-spacing: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(6, 206, 66);
+    float: right;
+    margin: 15px 15px;
+    border: 1px solid rgb(5, 250, 107);
+    width: 100px;
+    height: 40px;
+    border-radius: 15px 0 15px 0;
+}
+
+button:hover {
+    box-shadow: 0px 0px 50px rgb(76, 253, 5);
+    background-color: rgb(76, 253, 5);
+}
+
+.projetos {
+    margin-top: 20px;
+}
+
+.projetos h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.imagem {
+    display: block;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.rodape {
+    background-color: #19882c;
+    ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.rodape a {
+    color: #fff;
+    text-decoration: none;
 }
