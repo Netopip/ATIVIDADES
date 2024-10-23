@@ -1,9 +1,11 @@
 from random import randint
 
 def main():
+    cont = 0
     print('Tente adivinhar o número do computador!')
+    print('Você só tem 3 tentativas!')
     
-    while True:
+    while cont < 3:
         numero_computador = randint(0,5)
         
         try:
@@ -19,11 +21,16 @@ def main():
             continue
         
         print(f'O númeor do computador é: {numero_computador}\nO seu número é: {numero_jogador}.')
+        
         if numero_computador == numero_jogador:
             print('Parabéns, você ganhou!')
             break
         else:
             print('Você perdeu! Tente novamente!')
+            cont += 1
+    
+    print()
+    print('FIM DE JOGO')
         
 if __name__ == '__main__':
     main()
