@@ -1,5 +1,5 @@
 '''Crie um programa que crie uma matriz 3x3 e preencha com valores lidos pelo teclado'''
-'''
+
 def main():
     matriz = []
     for i in range(3):
@@ -22,5 +22,6 @@ matriz = np.identity(5)
 #matriz[0,0]=6
 #matriz[0][0] = 6 || as duas formas de acessar um valor estão corretas
 print(matriz)
+'''
 
 
