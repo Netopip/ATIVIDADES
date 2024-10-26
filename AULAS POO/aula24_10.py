@@ -21,5 +21,5 @@ class Relogio:
 
 relogio = Relogio(5, 20)
 print(relogio.retornarHoras())  
-relogio.mudarHora(23)
+print(relogio.mudarHora(25))
 print(relogio.retornarHoras())  
