@@ -66,8 +66,10 @@ class Banco:
         return f'Correntista {nome_correntista} não encontrado.'
     
     def exibircontasbanco(self):
-        for conta in self.contas:
-            print(conta.exibircorrentista())
+        if not self.contas:
+            return f'Não a contas cadastradas no {self.nome_banco}'
+        detalhes_correntistas = '\n'.join([conta.exibircorrentista() for conta in self.contas])
+        return detalhes_correntistas
     
     def saldototalbanco(self):
         saldo_total = 0
@@ -107,7 +109,7 @@ banco.adicionarconta(cliente1)
 banco.adicionarconta(cliente2)
 
 
-banco.exibircontasbanco()
+print(banco.exibircontasbanco())
 print(banco.saldototalbanco())
 
 
@@ -118,11 +120,10 @@ cliente_b = Contacorrente('545-46','Jonas',1000)
 banco2.adicionarconta(cliente_a)
 banco2.adicionarconta(cliente_b)
 
-banco2.exibircontasbanco()
 print(banco2.saldototalbanco())
 print(cliente_b.depositar(500))
 print(banco2.saldototalbanco())
-banco2.exibircontasbanco()
+print(banco2.exibircontasbanco())
 print()
 print('Buscar conta:')
 print(banco2.buscarconta('jona'))
