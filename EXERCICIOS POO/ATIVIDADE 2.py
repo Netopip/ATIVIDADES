@@ -41,8 +41,8 @@ class Bibliotecas:
         for livro in self.livros:
             if livro.titulo_livro == titulo:
                 self.livros.remove(livro)
-                return f'Livro {livro.titulo_livro} removido da biblioteca.'
-        return f'Livro {livro.titulo_livro} não encontrado'
+                return f'Livro {titulo} removido da biblioteca.'
+        return f'Livro {titulo} não encontrado'
     
     def buscarLivro(self,titulo):
         for livro in self.livros:
