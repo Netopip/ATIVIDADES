@@ -95,7 +95,9 @@ class Contacorrente:
     def sacar(self,valor):
         if self.saldo < valor:
             return f'Operação inválida, saldo insuficiente.'
+        self.saldo -= valor
         return f'Operação bem sucedida, saque de {valor}.'
+        
     
     def exibircorrentista(self):
         return f'Nº conta: {self.numero_conta}\nCorrentista: {self.nome_correntista}\nSaldo: {self.saldo}'
